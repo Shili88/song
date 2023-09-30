@@ -1,0 +1,184 @@
+PS C:\Users\xcryd\downloads\Python\Assignment1> git log   
+commit 6cf786fe4de72af93a651943c5ada8c4c9f88a4d (HEAD -> master)
+Author: Shili88 <taili9736@gmail.com>
+Date:   Mon Sep 4 09:42:32 2023 +0100
+
+    remove the duplicate chorus file and new chorus file added
+
+commit 900eff905eb91a8ef1fbd0d290142b7c66952c60
+Author: Shili88 <taili9736@gmail.com>
+Date:   Mon Sep 4 09:31:42 2023 +0100
+
+    Revert "remove last lyric on the chorus-2"
+
+    This reverts commit 0c41429a4c6a8fdb7431d28c27fed5a740b53d01.
+
+commit 0c41429a4c6a8fdb7431d28c27fed5a740b53d01
+Author: Shili88 <taili9736@gmail.com>
+Date:   Mon Sep 4 09:31:26 2023 +0100
+
+    remove last lyric on the chorus-2
+
+commit cdcac4251445a7865d2fb1bcac9f77039e3b83ae
+Author: Shili88 <taili9736@gmail.com>
+Date:   Mon Sep 4 09:12:15 2023 +0100
+
+    Revert "chorus-2 first lyric removed"
+
+    ehis reverts commit 9f6084ea20e48c1cee886aaeab940eef8d2ceb5
+
+commit 9f6084ea20e48c1cee886aaeab940eef8d2ceb71
+Author: Shili88 <taili9736@gmail.com>
+Date:   Mon Sep 4 09:07:44 2023 +0100
+
+    chorus-2 first lyric removed
+
+commit 04c7856c3b92f2b0c8e1a01ffdd07b75051abee5
+Author: Shili88 <taili9736@gmail.com>
+Date:   Mon Sep 4 09:06:56 2023 +0100
+
+    chorus-2 lyric added
+
+commit d14edc0da4e0f9eda4db0ee5de85b8e4e92edaf1
+Author: Shili88 <taili9736@gmail.com>
+Date:   Mon Sep 4 09:06:06 2023 +0100
+
+    chorus-1 lyric added
+
+commit 4a81ff95dff9201583648e87ad642da2b78ee21b
+Author: Shili88 <taili9736@gmail.com>
+Date:   Mon Sep 4 09:05:14 2023 +0100
+
+    verse-2 lyric added
+
+commit 4039745a553a1bd7dce868c8620f037d8f7e7dd0
+Author: Shili88 <taili9736@gmail.com>
+Date:   Mon Sep 4 09:03:54 2023 +0100
+
+PS C:\Users\xcryd\downloads\Python\Assignment1> git log -p song.txt
+commit 591197194b714130ddedf5403d709b6901b82e7b
+Author: Shili88 <taili9736@gmail.com>
+Date:   Mon Sep 4 09:02:14 2023 +0100
+
+    lyric added
+
+diff --git a/song.txt b/song.txt
+new file mode 100644
+index 0000000..3ff1aad
+--- /dev/null
++++ b/song.txt
+@@ -0,0 +1,58 @@
++[Verse -1]
++Listen to the wind blow
++Watch the sun rise
++Run in the shadows
++Damn your love, damn your lies
++
++[Chorus -1]
++And if you don't love me now
++You will never love me again
++I can still hear you sayin'
++You would never break the chain
++(Never break the chain)
++And if you don't love me now
++(You don't love me now)
++You will never love me again
++I can still hear you sayin' (Still hear you saying)
++You would never break the chain
++(Never break the chain)
++
++[Verse -2]
++Listen to the wind blow
++Down comes the night
++Run in the shadows
++Damn your love, damn your lies
++Break the silence
++Damn the dark, damn the light
++
++[Chorus -2]
++And if you don't love me now
++You will never love me again
++I can still hear you sayin'
++You would never break the chain
++(Never break the chain)
++And if you don't love me now
++(You don't love me now)
++You will never love me again
++I can still hear you sayin' (Still hear you saying)
++You would never break the chain
++(Never break the chain)
++And if you don't love me now
++(You don't love me now)
++You will never love me again
++I can still hear you sayin' (Still hear you saying)
+
+PS C:\Users\xcryd\downloads\Python\Assignment1> git log -p verse-1.txt
+commit 4039745a553a1bd7dce868c8620f037d8f7e7dd0
+Author: Shili88 <taili9736@gmail.com>
+Date:   Mon Sep 4 09:03:54 2023 +0100
+
+    verse-1 lyric added
+
+diff --git a/verse-1.txt b/verse-1.txt
+new file mode 100644
+index 0000000..6234921
+--- /dev/null
++++ b/verse-1.txt
+@@ -0,0 +1,4 @@
++Listen to the wind blow
++Watch the sun rise
++Run in the shadows
++Damn your love, damn your lies
+\ No newline at end of file
+
+PS C:\Users\xcryd\downloads\Python\Assignment1> git log -p verse-2.txt
+commit 4a81ff95dff9201583648e87ad642da2b78ee21b
+Author: Shili88 <taili9736@gmail.com>
+Date:   Mon Sep 4 09:05:14 2023 +0100
+
+    verse-2 lyric added
+
+diff --git a/verse-2.txt b/verse-2.txt
+new file mode 100644
+index 0000000..cf8d122
+--- /dev/null
++++ b/verse-2.txt
+@@ -0,0 +1,6 @@
++Listen to the wind blow
++Down comes the night
++Run in the shadows
++Damn your love, damn your lies
++Break the silence
++Damn the dark, damn the light
+\ No newline at end of file
+
+commit 6cf786fe4de72af93a651943c5ada8c4c9f88a4d (HEAD -> master)
+Author: Shili88 <taili9736@gmail.com>
+Date:   Mon Sep 4 09:42:32 2023 +0100
+
+    remove the duplicate chorus file and new chorus file added
+
+diff --git a/Chorus.txt b/Chorus.txt
+new file mode 100644
+index 0000000..8fd1cf6
+--- /dev/null
++++ b/Chorus.txt
+@@ -0,0 +1,17 @@
++And if you don't love me now
++You will never love me again
++I can still hear you sayin'
++You would never break the chain
++(Never break the chain)
++And if you don't love me now
++(You don't love me now)
++You will never love me again
++I can still hear you sayin' (Still hear you saying)
++You would never break the chain
++(Never break the chain)
++And if you don't love me now
++(You don't love me now)
++You will never love me again
++I can still hear you sayin' (Still hear you saying)
++You would never break the chain
++(Never break the chain)
+\ No newline at end of file
